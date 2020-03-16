@@ -1,0 +1,37 @@
+body {
+}
+
+.main-contents {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+	margin-right: 20px;
+	height: 100%;
+	width: 800px;
+}
+
+.header {
+}
+
+.message .date {
+	font-weight: lighter;
+	color: gray;
+	font: small-caption;
+}
+
+.copyright {
+	width: 250px;
+	margin: 0 auto;
+}
+
+label {
+	display: block;
+}
+
+.errorMessages {
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	color: red;
+}
