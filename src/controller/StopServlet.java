@@ -22,7 +22,6 @@ public class StopServlet extends HttpServlet{
 
 		//ユーザー停止・復活
 		new UserService().update(id, isStopped);
-
 		response.sendRedirect("management");
 	}
 }

@@ -36,7 +36,6 @@ public class HomeServlet extends HttpServlet {
 
 		request.setAttribute("messages", messages);
 		request.setAttribute("comments", comments);
-
 		request.getRequestDispatcher("/home.jsp").forward(request, response);
 	}
 }
