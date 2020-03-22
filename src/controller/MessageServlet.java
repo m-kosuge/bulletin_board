@@ -87,8 +87,7 @@ public class MessageServlet extends HttpServlet {
 
 		if (errorMessages.size() == 0) {
 			return true;
-		} else {
-			return false;
 		}
+		return false;
 	}
 }

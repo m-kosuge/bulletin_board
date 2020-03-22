@@ -35,7 +35,6 @@ public class SignupServlet extends HttpServlet {
 
 		request.setAttribute("branches", branches);
 		request.setAttribute("departments", departments);
-
 		request.getRequestDispatcher("/signup.jsp").forward(request, response);
 	}
 
@@ -131,8 +130,7 @@ public class SignupServlet extends HttpServlet {
 
 		if (errorMessages.size() == 0) {
 			return true;
-		} else {
-			return false;
 		}
+		return false;
 	}
 }
